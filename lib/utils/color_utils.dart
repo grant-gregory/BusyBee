@@ -25,7 +25,7 @@ var colorsPalettes = <ColorPalette>[
   new ColorPalette("Yellow", Colors.yellow.value),
   new ColorPalette("Amber", Colors.amber.value),
   new ColorPalette("Orange", Colors.orange.value),
-  new ColorPalette("Deeporange", Colors.deepOrange.value),
+  new ColorPalette("Deep Orange", Colors.deepOrange.value),
   new ColorPalette("Brown", Colors.brown.value),
   new ColorPalette("Black", Colors.black.value),
   new ColorPalette("Grey", Colors.grey.value),

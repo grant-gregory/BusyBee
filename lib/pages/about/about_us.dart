@@ -46,8 +46,8 @@ class AboutUsScreen extends StatelessWidget {
                     new ListTile(
                       leading:
                           new Icon(Icons.perm_identity, color: Colors.black),
-                      title: new Text("Burhanuddin Rashid"),
-                      subtitle: new Text("burhanrashid52"),
+                      title: new Text("Grant Gregory"),
+                      subtitle: new Text("grantwgregory"),
                       onTap: () => launchURL(GITHUB_URL),
                     ),
                     new ListTile(
@@ -58,7 +58,7 @@ class AboutUsScreen extends StatelessWidget {
                     new ListTile(
                         leading: new Icon(Icons.email, color: Colors.black),
                         title: new Text("Send an Email"),
-                        subtitle: new Text("burhanrashid5253@gmail.com"),
+                        subtitle: new Text("grantwgregory@gmail.com"),
                         onTap: () => launchURL(EMAIL_URL)),
                   ],
                 ),
@@ -85,8 +85,8 @@ class AboutUsScreen extends StatelessWidget {
                             onPressed: () => launchURL(TWITTER_URL),
                           ),
                           new IconButton(
-                            icon: new Image.asset("assets/facebook_logo.png"),
-                            onPressed: () => launchURL(FACEBOOK_URL),
+                            icon: new Image.asset("assets/linkedin_logo.png",scale: 8.75,),
+                            onPressed: () => launchURL(LINKEDIN_URL),
                           )
                         ],
                       ),
@@ -109,7 +109,7 @@ class AboutUsScreen extends StatelessWidget {
                     new Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: new ListTile(
-                        subtitle: new Text("Copyright 2018 Burhanuddin Rashid"
+                        subtitle: new Text("Copyright 2018 GWG"
                             '\n\nLicensed under the Apache License, Version 2.0 (the "License") you may not use this file except in compliance with the License. You may obtain a copy of the License at'
                             "\n\n\nhttp://www.apache.org/licenses/LICENSE-2.0"
                             '\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.'),

@@ -63,8 +63,8 @@ class _SideDrawerState extends State<SideDrawer> {
       child: new ListView(
         children: <Widget>[
           new UserAccountsDrawerHeader(
-            accountName: new Text("Burhanuddin Rashid"),
-            accountEmail: new Text("burhanrashid5253@gmail.com"),
+            accountName: new Text("Grant Gregory"),
+            accountEmail: new Text("grantwgregory@gmail.com"),
             otherAccountsPictures: <Widget>[
               new IconButton(
                   icon: new Icon(Icons.info, color: Colors.white,size: 36.0,),
@@ -78,7 +78,7 @@ class _SideDrawerState extends State<SideDrawer> {
             ],
             currentAccountPicture: new CircleAvatar(
               backgroundColor: Theme.of(context).accentColor,
-              backgroundImage: new AssetImage("assets/profile_pic.jpg"),
+              backgroundImage: new AssetImage("assets/linkedin_logo.png"), // new AssetImage("assets/profile_pic.jpg"),
             ),
           ),
           new ListTile(

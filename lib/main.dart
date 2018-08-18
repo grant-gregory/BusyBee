@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
           '/addTask': (BuildContext context) => new AddTaskScreen(),
         },
         theme: new ThemeData(
-            accentColor: Colors.orange, primaryColor: const Color(0xFFDE4435)),
+            accentColor: Colors.blueGrey, primaryColor: Colors.amber), //const Color(0xFFDE4435)
         home: new HomeScreen());
   }
 }

@@ -84,7 +84,7 @@ class _HomeState extends State<HomeScreen> {
           Icons.add,
           color: Colors.white,
         ),
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.blueGrey,
         onPressed: () async {
           bool isDataChanged = await Navigator.push(
             context,
